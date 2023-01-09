@@ -4,7 +4,7 @@ Inferno Is An Ransomware Executable That Is Relentess And Attack At Fast Speeds
 
 # Python Version.
 
-Please note that the python version is only $5 and does basically the same but slower and less secure.
+Please note that the python version is only $5 and does basically the same but faster and secure.
 So please use at your own risk.
 Needed to install/compile
 ```
