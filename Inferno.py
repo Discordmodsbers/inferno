@@ -9,6 +9,8 @@ When using this tool nor even having it you agree to these.
 """
 VersionKey = 'https://raw.githubusercontent.com/Discordmodsbers/inferno/main/ServerKey.py?token=GHSAT0AAAAAAB5CAIMNU7DBSGOOTA45366UY5YI55Q'
 
+version = '1.3'
+
 Version1CPP = """#include <boost/config/warning_disable.hpp>
 #include <boost/filesyste..hpp>
 #include <iostream>
@@ -124,7 +126,7 @@ try:
     with open('ServerKey.py', 'wb') as f:
       f.write(r.content)
       f.close()
-    if Key =='1.1':
+    if Key == version:
       print("Up To Date !")
       t.sleep(3)
     else:
