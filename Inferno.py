@@ -82,8 +82,6 @@ string RandomString(int len)
 }"""
 
 version1 = """
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """
 
