@@ -3,13 +3,15 @@ import time
 
 delay = 2
 
+def cls():
+  os.system('clear')
 
 def deleter():
   try:
     for delete in range(10):
       print(f'Deleting {delete}%', end='\r')
       time.sleep(0.5)
-    os.system("rm main.py")
+    os.system("rm Inferno.py")
     os.system("rm ServerKey.py")
     os.system("rm requirements.txt")
     return True
@@ -24,8 +26,9 @@ def downloader():
     for download in range(11, 21):
       print(f"Downloading {download}%", end='\r')
       time.sleep(0.5)
-    os.system('git clone https://github.com/Discordmodsbers/inferno')
-    os.system('pip install -r requirements.txt')
+    os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/Inferno.py')
+    os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/ServerKey.py')
+    os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/requirements.txt')
     return True
   except:
     print("Failed to download !")
@@ -34,6 +37,15 @@ def downloader():
 
 
 def main():
+  cls()
+  print("""██   ██ ███    ██  ██████  ██   ██ ███████     ██    ██ ██████  ██████   █████  ████████ ███████ ██████  
+██  ██  ████   ██ ██    ██  ██ ██  ██          ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ 
+█████   ██ ██  ██ ██    ██   ███   ███████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  
+██  ██  ██  ██ ██ ██    ██  ██ ██       ██     ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ 
+██   ██ ██   ████  ██████  ██   ██ ███████      ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ 
+                                                                                                         
+                                                                                                         """)
+  print("[*] Deleting All Files [*]")
   if deleter():
     print("[*] Deleted All Files [*]")
     
