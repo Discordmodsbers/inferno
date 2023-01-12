@@ -23,6 +23,7 @@ pyinstaller --onefile Inferno.py
 
 # CPP Version.
 FREE
+You are going to need the boost libary to compile/run.
 
 # How Does The Python Version Work?
 
