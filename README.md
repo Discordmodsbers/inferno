@@ -3,7 +3,7 @@ Inferno Is An Ransomware Executable That Is Relentess And Attack At Fast Speeds
 
 #Known Bugs !
 ```
-Everything is patched !
+1.) Compiler Error ! ( For python )
 ```
 #What I want to update
 ```
