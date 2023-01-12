@@ -1,11 +1,11 @@
 # What Is Inferno ?
 Inferno Is An Ransomware Executable That Is Relentess And Attack At Fast Speeds
 
-#Known Bugs !
+# Known Bugs !
 ```
 1.) Compiler Error ! ( For python )
 ```
-#What I want to update
+# What I want to update
 ```
 1.) Me to use a server panel to change the update version key.
 2.) Threading
