@@ -84,7 +84,7 @@ string RandomString(int len)
 }"""
 
 version1 = """
-
+print("Please buy !")
 """
 
 
@@ -178,7 +178,8 @@ Hit [{green}'y'{reset}]
       os.system(f'pyinstaller --onefile {name}.py')
       return True
     except:
-      print(f'{green}[!]{reset} Compiler error.\n')
+      print(f'  | Compiler  [{green}!{reset}] |')
+      print(f'  +---------------+')
       return False
       sys.exit()
   
@@ -189,9 +190,11 @@ Hit [{green}'y'{reset}]
       while True:
         option = input("-> ")
         if option =='python':
+          cls()
           name = input("Please enter the name of the Ransomware. ")
           break
         elif option =='cpp':
+          cls()
           cpp()
         elif option =='':
           print("Invalid option.\n")
