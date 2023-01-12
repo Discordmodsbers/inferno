@@ -3,7 +3,7 @@ Inferno Is An Ransomware Executable That Is Relentess And Attack At Fast Speeds
 
 #Known Bugs !
 ```
-1.) After updating the checker will prompt the user to update even though its already updated.
+Everything is patched !
 ```
 #What I want to update
 ```
