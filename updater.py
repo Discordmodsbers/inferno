@@ -14,6 +14,7 @@ def deleter():
     os.system("rm Inferno.py")
     os.system("rm ServerKey.py")
     os.system("rm requirements.txt")
+    os.system("rm banner.py")
     return True
   except:
     print("Failed to update please run as sudo !")
@@ -29,6 +30,7 @@ def downloader():
     os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/Inferno.py')
     os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/ServerKey.py')
     os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/requirements.txt')
+    os.system('curl -LJO https://raw.githubusercontent.com/Discordmodsbers/inferno/main/banner.py')
     return True
   except:
     print("Failed to download !")
