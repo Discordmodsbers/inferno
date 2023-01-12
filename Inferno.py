@@ -9,7 +9,7 @@ When using this tool nor even having it you agree to these.
 """
 VersionKey = 'https://raw.githubusercontent.com/Discordmodsbers/inferno/main/ServerKey.py?token=GHSAT0AAAAAAB5CAIMNU7DBSGOOTA45366UY5YI55Q'
 
-version = VersionKey
+version = '3.0'
 
 Version1CPP = """#include <boost/config/warning_disable.hpp>
 #include <boost/filesyste..hpp>
